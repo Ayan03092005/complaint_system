@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>IT Dashboard</h2>
+    <h3>Approved IT Complaints</h3>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Department</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Status</th>
+        </tr>
+        {% for complaint in complaints %}
+            <tr>
+                <td>{{ complaint.complaint_type }}</td>
+                <td>{{ complaint.department }}</td>
+                <td>{{ complaint.description }}</td>
+                <td>{{ complaint.category }}</td>
+                <td>{{ complaint.status }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Chat with Support Bot</h2>
+    <p>Welcome, {{ user.name }}! Ask your question below or type "lodge complaint" to file a formal complaint.</p>
+    <div id="chat-container">
+        <div id="chat-messages"></div>
+        <form id="chat-form">
+            <input type="text" id="chat-input" placeholder="Type your message..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Register</h2>
+    <form method="POST">
+        <input type="text" name="employee_id" placeholder="Employee ID" required>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="designation" placeholder="Designation" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+		<select name="role" required>
+            <option value="user">User</option>
+            <option value="officer">Officer</option>
+            <option value="it">IT Staff</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+    <p>Already registered? <a href="{{ url_for('login') }}">Login here</a></p>
+{% endblock %}

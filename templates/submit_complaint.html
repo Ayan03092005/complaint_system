@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Submit a Complaint</h2>
+    <form method="POST">
+        <input type="text" name="complaint_type" placeholder="Complaint Type" required>
+        <select name="department" required>
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+            <option value="Facilities">Facilities</option>
+            <option value="Other">Other</option>
+        </select>
+        <textarea name="description" placeholder="Describe your issue" required></textarea>
+        <button type="submit">Submit Complaint</button>
+    </form>
+    <p>After submission, the system will automatically classify your complaint (e.g., hardware, software, technical, network).</p>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Officer Dashboard</h2>
+    <h3>Pending Complaints</h3>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Department</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+        {% for complaint in complaints %}
+            <tr>
+                <td>{{ complaint.complaint_type }}</td>
+                <td>{{ complaint.department }}</td>
+                <td>{{ complaint.description }}</td>
+                <td>{{ complaint.category }}</td>
+                <td>{{ complaint.status }}</td>
+                <td>
+                    <a href="{{ url_for('approve_complaint', complaint_id=complaint.id) }}">Approve</a>
+                    <a href="{{ url_for('reject_complaint', complaint_id=complaint.id) }}">Reject</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

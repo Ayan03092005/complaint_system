@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Welcome, {{ user.name }}</h2>
+    <a href="{{ url_for('submit_complaint') }}">Submit New Complaint</a>
+    <a href="{{ url_for('chatbot') }}">Chat with Support Bot</a>
+    <h3>Your Complaints</h3>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Department</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Created At</th>
+        </tr>
+        {% for complaint in complaints %}
+            <tr>
+                <td>{{ complaint.complaint_type }}</td>
+                <td>{{ complaint.department }}</td>
+                <td>{{ complaint.description }}</td>
+                <td>{{ complaint.category }}</td>
+                <td>{{ complaint.status }}</td>
+                <td>{{ complaint.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
