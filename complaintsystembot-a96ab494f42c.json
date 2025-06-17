@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "complaintsystembot",
+  "private_key_id": "a96ab494f42c7416b0229f7e568614b39d2b152f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCUsgDzFxodinKA\nhkjIn7u6ERUWYsfLWI9XeE6A3ejL0Jd9YgnbOoRL8Q0MnrQOo0viWiJU4Rn2OMo7\nRNVr+7RWsCVktFm9TFe1dQzfHGb81ygJURhC5FFk6otEhHBQFfaUCbUNlAVy9dyf\n1YwiCdT1ezgnWH1eNLF1afcRTVIwN5f7f3e7RQtgcT5Zr3tOmV2qRkKAei4/jx6h\n7d6AlapsAo/2nukGZCBoC2OwlQo7h5tjx8vX0Lq+EvNgHXRHqBmLIxjRvUJztN92\nSYzm15O/qUpY9KDpjR7HOcjf0o/QLQatKwzFyMCTVoisyrjQVGmHBnUHY2e3vcIT\n0ggYjPCpAgMBAAECggEAAs4BZunCeYMr2hEZB1u9SpWu5voHAxFmZsPOAJqZnQU6\nuPKOoAl7BwRYIYBO13sstRYhJqZg+ybNaGUfJ3HF0DVzXHJrF5R8j7TSVipZe58X\n/LurBaamgwz0196C+ye8O8TxGtKgxa8t3FVGrDpblM51sTGh773Ls8duEcVPww60\nrvX48OkrR3UguOn01eNVpkxPLypgdgSMP8u4M5oBpa/7oHF9KjRf4Cd+m75lqI3U\nS2GswJM5alH6bcBILQfu+AGzt+1SndG1hhIN0BfRd+2kGS1STyC7BlWldRZHkf3b\nmQ5JliSHLfgRXU395yR5jSKmFHmYUSrqZBbo1jPNHwKBgQDP7VSCmjnixmgZ1qOg\n5bFbHgB8ZmJrhvDCIZVjh/Lyj7uCqFN+r5yljiufgco5R7uP4j1iCGpe6byDuu/0\nrIc4gic3y7lMDzEXKTSrtkjiXxrNOBlEU/tlGPNSHdgO4fJWIe4BJq3sGF/DRjM7\nEIpYYSDItHQCeTs0QXPM6H6K1wKBgQC3EuYNANo+31PDEQot5mc5vrU6N3Pj6YZj\nDp/KHgqpShQK1gTyfwzodzjC7ObCZaGNsEff538S2tk7aRyrjFVOzmBFm99VLUHk\nBywHb8v6tKXQy+5qvvq5SaCyCoy2X4X7xUhNbBFFhL/kSKmIxCngN4/kfT/KSP0s\nuqmyajhwfwKBgQCaSjsWusjPfXjMC5jaEPd9bJLhvLu1nKlU9MS82amu0ndK6gsj\nC78KnqfCMfZUcOU+TJxN/X6pNXp8qZ/biJbCmNnvLk4uoWtFC3+ZF6eXywjBVapy\nKHt4tn3/5kNoL8O6pGzPD9upQSD2b0YewxRVpqVEKZuYJkuHaDY8zBzyewKBgHsj\nQguDBEj/zAZLws4GyG3FwX4L6G5nF5YvMvku5briccKsG53EKTl/X3V1BO3CkDyO\nUnne6tES1MSqObeFZ6ffFlAbvMc87rHixRGnd8sEkPd1A8NW+6t/Q5AdmnHcpHEp\nTC2PP7rDxJJW8XllgEko9icYu7xjBa99SkEQQzAfAoGBAMiBRMsk/ybOeuXDsVtA\nA9wt4Pef/z5lrEjqtr8l93QnHTpnk54YjJ42NTeJ9CGDlPNgvayinFNFgnEw4ihV\nFUKEdyNTDk5j6OlHv1FCq2OWAQI44do3zF5KfycRavXnEjU+aPm84vQqGkyIR+NO\nRxXBIVV6QHAqa7VxwNGa5lTU\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-service-account-912@complaintsystembot.iam.gserviceaccount.com",
+  "client_id": "114355863647655716588",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-service-account-912%40complaintsystembot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
