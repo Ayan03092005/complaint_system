@@ -4,4 +4,5 @@ werkzeug
 google-cloud-dialogflow
 scikit-learn
 pandas
+gunicorn
 joblib
